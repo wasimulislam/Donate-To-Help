@@ -157,6 +157,12 @@ hr {
     text-align: left;
 }
 
+.box-description h4 {
+    font-size: 20px;
+    text-align: left;
+    margin-top: -30px;
+}
+
 .box-description p {
     font-size: 16px;
     font-weight: 500;
@@ -171,7 +177,6 @@ hr {
     margin-bottom: 0%;
 }
 
-.image {}
 
 .second-section {
     display: flex;
@@ -223,6 +228,11 @@ hr {
 
 .update h2 {
     margin: 0%;
+    padding-top: 60px;
+}
+
+.read-more h2 {
+    margin-top: 0%;
 }
 
 .campaign-plan {
@@ -233,13 +243,25 @@ hr {
 
 .campaign {
     width: 400px;
-    height: 400px;
-    background-color: rgb(232, 232, 232);
+    height: 500px;
+    background-color: rgb(240, 240, 240);
     border-radius: 10px;
-    margin: 1%;
+    margin: 8px;
 }
 
-.image {}
+.image {
+    width: 400px;
+}
+
+.box-description a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 143, 36);
+    border-radius: 10px;
+    padding: 16px;
+    padding-top: 15px;
+    border: none;
+}
 
 .last-section {
     width: 55%;
