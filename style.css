@@ -215,10 +215,30 @@ p {
     height: 250px;
     margin-top: 50px;
     margin-bottom: 120px;
-    background-color: rgb(225, 225, 157);
+    background-color: rgb(219, 219, 203);
+    border-radius: 20px;
 
 
 }
+
+.form-control {
+    padding: 20px 95px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: aliceblue;
+}
+
+/* .button2 {
+    text-decoration: none;
+    background-color: rgb(215, 72, 62);
+    padding: 15px 35px;
+    border-radius: 0px 5px 5px 0px;
+    color: rgb(253, 252, 252);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+
+} */
 
 footer {
     width: 100%;
@@ -234,4 +254,17 @@ h5.a {
     color: rgb(226, 75, 75);
     font-weight: 700;
 
+}
+
+.email {
+    padding-top: 90px;
+}
+
+.email a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    border-radius: 0px 5px 5px 0px;
+    padding: 16px;
+    border: none;
 }
