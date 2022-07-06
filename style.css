@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -5,15 +10,15 @@ body {
 }
 
 h1 {
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 700;
-    line-height: 30px;
+    padding-top: 30px;
 }
 
 h2 {
     font-size: 50px;
     font-weight: 700;
-    margin-top: 150px;
+    margin-top: 90px;
     text-align: center;
     margin-bottom: 0%;
 }
@@ -22,10 +27,11 @@ h3 {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
+    padding-top: 30px;
 }
 
 h5 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 0%;
 }
@@ -61,12 +67,12 @@ p {
 
 .button {
     text-decoration: none;
-    background-color: rgb(215, 72, 62);
-    padding: 20px 35px;
+    background-color: rgb(17, 143, 36);
+    padding: 15px 25px;
     border-radius: 10px;
     color: rgb(253, 252, 252);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -82,9 +88,9 @@ p {
 .box-2 {
     width: 200px;
     height: 160px;
-    background-color: rgb(254, 213, 213);
-    border: 2px solid rgb(239, 14, 14);
-    color: rgb(226, 75, 75);
+    background-color: rgb(170, 251, 186);
+    border: 2px solid rgb(17, 143, 36);
+    color: rgb(17, 143, 36);
     border-radius: 10px;
     padding-top: 30px;
     margin: 5px;
@@ -98,9 +104,16 @@ p {
 }
 
 .other-amount {
-    margin-top: 7%;
+    margin-top: 2%;
     color: rgb(169, 164, 164);
     text-align: center;
+}
+
+hr {
+    width: 100%;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .donation-plan {
@@ -110,7 +123,7 @@ p {
 }
 
 .box-3 {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-color: rgb(210, 247, 247);
     border-radius: 10px;
@@ -119,7 +132,7 @@ p {
 
 
 .box-4 {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-color: rgb(232, 225, 233);
     border-radius: 10px;
@@ -127,7 +140,7 @@ p {
 }
 
 .box-5 {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-color: rgb(232, 232, 232);
     border-radius: 10px;
@@ -151,12 +164,14 @@ p {
 }
 
 .icon {
-    width: 100px;
-    padding-top: 50px;
+    width: 70px;
+    padding-top: 45px;
     padding-left: 30PX;
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
+
+.image {}
 
 .second-section {
     display: flex;
@@ -178,7 +193,7 @@ p {
     width: 600px;
     height: 700px;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-right: 40px;
 }
 
@@ -210,12 +225,28 @@ p {
     margin: 0%;
 }
 
+.campaign-plan {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.campaign {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.image {}
+
 .last-section {
     width: 55%;
     height: 250px;
     margin-top: 50px;
     margin-bottom: 120px;
-    background-color: rgb(219, 219, 203);
+    background-color: rgb(224, 224, 207);
     border-radius: 20px;
 
 
@@ -247,7 +278,7 @@ p {
 .email a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(193, 92, 92);
+    background-color: rgb(17, 143, 36);
     border-radius: 0px 5px 5px 0px;
     padding: 16px;
     border: none;
@@ -255,9 +286,9 @@ p {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 200px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 h5.a {
@@ -265,6 +296,6 @@ h5.a {
     padding-bottom: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(226, 75, 75);
-    font-weight: 700;
+    font-weight: 600;
 
 }
