@@ -228,7 +228,7 @@ p {
     background-color: aliceblue;
 }
 
-.button2 {
+/* .button2 {
     text-decoration: none;
     background-color: rgb(215, 72, 62);
     padding: 15px 20px;
@@ -238,20 +238,20 @@ p {
     font-weight: 400;
     border: none;
 
-}
+} */
 
 .email {
     padding-top: 90px;
 }
 
-/* .email a {
+.email a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(193, 92, 92);
     border-radius: 0px 5px 5px 0px;
     padding: 16px;
     border: none;
-} */
+}
 
 footer {
     width: 100%;
