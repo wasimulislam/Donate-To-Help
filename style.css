@@ -90,3 +90,18 @@ h4 {
     color: rgb(169, 164, 164);
     text-align: center;
 }
+
+.donation-plan {
+    margin-top: 50px;
+}
+
+.box-3 {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.box-description {
+    padding: 30px;
+    text-align: justify;
+}
