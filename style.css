@@ -228,16 +228,29 @@ p {
     background-color: aliceblue;
 }
 
-/* .button2 {
+.button2 {
     text-decoration: none;
     background-color: rgb(215, 72, 62);
-    padding: 15px 35px;
+    padding: 15px 20px;
     border-radius: 0px 5px 5px 0px;
     color: rgb(253, 252, 252);
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     border: none;
 
+}
+
+.email {
+    padding-top: 90px;
+}
+
+/* .email a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(193, 92, 92);
+    border-radius: 0px 5px 5px 0px;
+    padding: 16px;
+    border: none;
 } */
 
 footer {
@@ -254,17 +267,4 @@ h5.a {
     color: rgb(226, 75, 75);
     font-weight: 700;
 
-}
-
-.email {
-    padding-top: 90px;
-}
-
-.email a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: brown;
-    border-radius: 0px 5px 5px 0px;
-    padding: 16px;
-    border: none;
 }
