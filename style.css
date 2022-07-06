@@ -24,12 +24,14 @@ h3 {
     text-align: center;
 }
 
-h4 {
+p {
     font-size: 20px;
     font-weight: 500;
     text-align: center;
     margin-top: 0%;
+    color: rgb(106, 105, 105);
 }
+
 
 
 .top-section {
@@ -93,15 +95,55 @@ h4 {
 
 .donation-plan {
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .box-3 {
     width: 500px;
-    height: 500px;
-    background-color: aqua;
+    height: 400px;
+    background-color: rgb(210, 247, 247);
+    border-radius: 10px;
+    margin: 1%;
+}
+
+
+.box-4 {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(232, 225, 233);
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.box-5 {
+    width: 500px;
+    height: 400px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 10px;
+    margin: 1%;
 }
 
 .box-description {
     padding: 30px;
     text-align: justify;
+}
+
+.box-description h3 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.box-description p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.icon {
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 30PX;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
